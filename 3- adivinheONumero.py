@@ -4,7 +4,7 @@ pc = randint(1, 100)
 palpite = 0
 tentativas = 0
 
-if(pc % 2 == 0):
+if pc % 2 == 0:
     pista = 'par'
 else:
     pista = 'impar'
